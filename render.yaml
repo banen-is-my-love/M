@@ -9,7 +9,7 @@ services:
     name: baqir2
     plan: free
     branch: master
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -U -r requirements.txt
     startCommand: python3 app.py & python3 main.py
     repo: https://github.com/banen-is-my-love/M.git
     region: frankfurt
